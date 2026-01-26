@@ -1,0 +1,918 @@
+---
+title: "SynaptiQ CDP-Choline"
+description: "Complete clinical monograph for CDP-Choline (Citicoline) — the dual-action cholinergic compound for sustained cognitive support and neuronal membrane synthesis"
+---
+
+## SynaptiQ CDP-Choline
+
+<CardGroup cols={4}>
+
+<Card title="Boost" icon="rocket-launch" color="#5A8FA8">
+250 mg
+</Card>
+
+<Card title="Sustain" icon="rocket" color="#5A8FA8">
+250 mg
+</Card>
+
+<Card title="Dual Action" icon="arrows-split-up-and-left" color="#5A8FA8">
+Choline + Cytidine
+</Card>
+
+<Card title="Daily Use" icon="calendar-check" color="#5A8FA8">
+No Cycling Required
+</Card>
+
+</CardGroup>
+
+**The thinking person's choline.** CDP-Choline (cytidine 5'-diphosphocholine, also called citicoline) is a naturally occurring intermediate in the synthesis of phosphatidylcholine — the primary phospholipid of neuronal membranes. Unlike simple choline salts, CDP-Choline delivers **two synergistic molecules**: **choline** for acetylcholine synthesis and membrane construction, and **cytidine** which converts to **uridine** for additional neuroplastic benefits. This dual-action compound has been studied in over **11,000 patients** across clinical trials, demonstrating benefits for memory, attention, and neuroprotection. As the **daily baseline cholinergic** in NTRPX Boost and Sustain, SynaptiQ CDP-Choline provides the foundation upon which acute stacks (Sprint's Alpha-GPC + Huperzine A) can build.
+
+<AccordionGroup>
+
+<Accordion title="Mechanism of Action" icon="flask">
+
+CDP-Choline works through two parallel pathways — cholinergic enhancement and membrane phospholipid synthesis:
+
+```mermaid
+flowchart LR
+    CDP[CDP-Choline] --> CHOL[Choline]
+    CDP --> CYT[Cytidine]
+    
+    CHOL --> ACH[Acetylcholine ↑]
+    CHOL --> PC1[Phosphatidylcholine]
+    
+    CYT --> URI[Uridine]
+    URI --> UTP[UTP → CTP]
+    UTP --> PC2[Phosphatidylcholine]
+    
+    PC1 --> MEMB[Membrane Synthesis]
+    PC2 --> MEMB
+```
+
+### Pathway 1: Cholinergic Enhancement
+
+```mermaid
+flowchart TB
+    subgraph CHOLINE_PATH["Cholinergic Pathway"]
+        CDP1[CDP-Choline] --> CHOL1[Choline]
+        CHOL1 --> CHAT[ChAT Enzyme]
+        ACETYL[Acetyl-CoA] --> CHAT
+        CHAT --> ACH1[Acetylcholine]
+    end
+    
+    subgraph RECEPTORS["Cholinergic Targets"]
+        ACH1 --> MUSC[Muscarinic<br>M1-M5]
+        ACH1 --> NIC[Nicotinic<br>α4β2, α7]
+    end
+    
+    subgraph COGNITION["Cognitive Outcomes"]
+        MUSC --> MEM[Memory]
+        MUSC --> LEARN[Learning]
+        NIC --> ATTN[Attention]
+        NIC --> FOCUS[Focus]
+    end
+```
+
+### Pathway 2: Membrane Phospholipid Synthesis (Kennedy Pathway)
+
+```mermaid
+flowchart TB
+    subgraph KENNEDY["Kennedy Pathway"]
+        CHOL2[Choline] --> CK[Choline Kinase]
+        CK --> PCHOL[Phosphocholine]
+        PCHOL --> CCT[CCT Enzyme<br>Rate-Limiting]
+        CTP_K[CTP] --> CCT
+        CCT --> CDPC[CDP-Choline]
+        CDPC --> CPT[CPT Enzyme]
+        DAG[Diacylglycerol] --> CPT
+        CPT --> PC[Phosphatidylcholine]
+    end
+    
+    subgraph MEMBRANE["Membrane Outcomes"]
+        PC --> NEURAL[Neuronal Membranes]
+        PC --> SYNAPSE[Synaptic Membranes]
+        PC --> MYELIN[Myelin Integrity]
+    end
+```
+
+**Key Insight:** Oral CDP-Choline bypasses the rate-limiting CCT step by providing pre-formed CDP-Choline that converts to both choline AND cytidine (→ uridine → UTP → CTP), supplying substrates from multiple angles.
+
+### Pathway 3: Cytidine → Uridine Conversion
+
+```mermaid
+flowchart LR
+    CYT2[Cytidine] --> DEAM[Cytidine Deaminase]
+    DEAM --> URI2[Uridine]
+    URI2 --> UMP[UMP]
+    UMP --> UDP[UDP]
+    UDP --> UTP2[UTP]
+    UTP2 --> CTP2[CTP]
+    CTP2 --> KENNEDY2[Kennedy Pathway]
+```
+
+This cytidine → uridine conversion is significant because uridine has independent neuroplastic effects:
+
+| Uridine Effect | Mechanism | Cognitive Relevance |
+|----------------|-----------|---------------------|
+| ↑ Phosphatidylcholine | Kennedy pathway substrate | Membrane synthesis |
+| ↑ Synaptic proteins | Gene expression | Synaptogenesis |
+| ↑ Neurite outgrowth | P2Y receptors | Neuroplasticity |
+| ↑ Dopamine release | D1/D2 modulation | Motivation, reward |
+
+### Complete Mechanism Summary
+
+| Mechanism | Pathway | Magnitude | Outcome |
+|-----------|---------|-----------|---------|
+| **ACh synthesis** | Choline → ACh | ★★★★★ | Memory, attention |
+| **PC synthesis** | Kennedy pathway | ★★★★★ | Membrane integrity |
+| **Uridine effects** | Cytidine → Uridine | ★★★★☆ | Neuroplasticity |
+| **Dopamine modulation** | Uridine → DA | ★★★☆☆ | Motivation |
+| **Neuroprotection** | Multiple | ★★★★☆ | Brain health |
+
+### Why CDP-Choline Over Other Choline Sources?
+
+```mermaid
+flowchart TB
+    subgraph SOURCES["Choline Sources Compared"]
+        BIT[Choline Bitartrate] --> CHOL_ONLY[Choline Only<br>Low brain uptake]
+        GPC[Alpha-GPC] --> CHOL_HIGH[Choline Only<br>High brain uptake<br>Acute surge]
+        CDPC2[CDP-Choline] --> DUAL[Choline + Cytidine<br>Dual pathway<br>Sustained]
+    end
+    
+    subgraph BEST_USE["Optimal Application"]
+        CHOL_ONLY --> BASIC[Basic choline needs]
+        CHOL_HIGH --> ACUTE[Acute performance<br>Sprint stack]
+        DUAL --> DAILY[Daily foundation<br>Boost/Sustain]
+    end
+```
+
+</Accordion>
+
+<Accordion title="Pharmacokinetic Profile" icon="chart-line">
+
+### ADME Parameters
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| **Bioavailability** | ~90% (oral) | Excellent absorption |
+| **Metabolism** | Hydrolyzed → Choline + Cytidine | In gut and liver |
+| **Choline Tmax** | 2-3 hours | Peak choline levels |
+| **Cytidine Tmax** | 1-2 hours | Rapidly converted to uridine |
+| **Half-life** | Biphasic: 2-3h (initial), 56h (terminal) | Long tissue retention |
+| **Brain uptake** | Crosses BBB as choline + uridine | Both components enter CNS |
+| **Excretion** | Renal + respiratory (as CO₂) | Complete elimination |
+
+### Absorption and Metabolism
+
+```mermaid
+flowchart LR
+    ORAL[Oral CDP-Choline] --> GUT[GI Tract]
+    GUT --> HYDRO[Hydrolysis]
+    HYDRO --> CH[Choline]
+    HYDRO --> CY[Cytidine]
+    
+    CH --> PLASMA_C[Plasma Choline ↑]
+    CY --> URI_C[Uridine ↑]
+    
+    PLASMA_C --> BBB1[Crosses BBB]
+    URI_C --> BBB2[Crosses BBB]
+    
+    BBB1 --> BRAIN_C[Brain Choline]
+    BBB2 --> BRAIN_U[Brain Uridine]
+```
+
+### Plasma Timeline
+
+```mermaid
+gantt
+    title CDP-Choline PK (250mg)
+    dateFormat HH:mm
+    axisFormat %H:%M
+    
+    section Choline
+    Absorb    :c1, 00:00, 60m
+    Rise      :c2, 00:30, 90m
+    Peak      :crit, c3, 02:00, 60m
+    Plateau   :c4, 02:30, 3h
+    
+    section Uridine
+    Convert   :u1, 00:15, 45m
+    Peak      :crit, u2, 01:00, 60m
+    Sustain   :u3, 01:30, 4h
+```
+
+### Biphasic Elimination
+
+CDP-Choline has an unusual pharmacokinetic profile with two distinct half-lives:
+
+| Phase | Half-Life | Significance |
+|-------|-----------|--------------|
+| **Initial (α)** | 2-3 hours | Plasma redistribution |
+| **Terminal (β)** | 56 hours | Tissue incorporation |
+
+**Implication:** Single daily dosing is effective because tissue levels remain stable even as plasma fluctuates.
+
+### Comparison with Alpha-GPC Kinetics
+
+| Parameter | CDP-Choline | Alpha-GPC |
+|-----------|-------------|-----------|
+| Choline Tmax | 2-3 hours | 1-2 hours |
+| Peak magnitude | Moderate | High |
+| Duration | Prolonged | Shorter |
+| Additional benefits | Uridine/cytidine | None |
+| Best for | Daily baseline | Acute performance |
+
+</Accordion>
+
+<Accordion title="Form Selection" icon="magnifying-glass-plus">
+
+### CDP-Choline (Citicoline) vs Other Choline Forms
+
+| Form | Choline Content | Brain Uptake | Additional Benefits | Best Application |
+|------|-----------------|--------------|---------------------|------------------|
+| **CDP-Choline** | 18.5% | ★★★★☆ High | Cytidine → Uridine | **Daily cognitive** |
+| **Alpha-GPC** | 40% | ★★★★★ Highest | None | **Acute performance** |
+| Choline Bitartrate | 41% | ★★☆☆☆ Low | None | Basic supplementation |
+| Phosphatidylcholine | 13% | ★★★☆☆ Moderate | Phospholipid | Liver, membrane |
+| Choline Chloride | 75% | ★★☆☆☆ Low | None | Industrial/animal |
+
+### Why CDP-Choline for Daily Use
+
+```mermaid
+flowchart TB
+    subgraph DAILY_REQ["Daily Requirements"]
+        D1[Sustained ACh support]
+        D2[Membrane maintenance]
+        D3[No cycling needed]
+        D4[Well-tolerated chronic]
+    end
+    
+    subgraph CDP_FIT["CDP-Choline Fits"]
+        D1 --> F1[Moderate, sustained<br>choline elevation]
+        D2 --> F2[Kennedy pathway<br>support via cytidine]
+        D3 --> F3[No tolerance<br>observed]
+        D4 --> F4[Excellent safety<br>profile]
+    end
+```
+
+### Quality Specifications (SynaptiQ)
+
+| Attribute | Specification | Method |
+|-----------|---------------|--------|
+| Identity | Cytidine 5'-diphosphocholine | HPLC, NMR |
+| Assay | ≥98.0% | HPLC |
+| Water content | ≤5.0% | Karl Fischer |
+| Heavy metals | ≤10 ppm | ICP-MS |
+| Lead | ≤1 ppm | ICP-MS |
+| Arsenic | ≤1 ppm | ICP-MS |
+| Microbial (TPC) | ≤1000 CFU/g | USP &lt;61&gt; |
+| Residual solvents | Per ICH Q3C | GC |
+
+### Cognizin® vs Generic CDP-Choline
+
+| Parameter | Cognizin® | Generic |
+|-----------|-----------|---------|
+| Purity | ≥99% | Variable (95-99%) |
+| Clinical trials | Multiple (branded) | Limited |
+| Consistency | Batch-to-batch verified | Variable |
+| Cost | Higher | Lower |
+| Recommendation | Preferred if available | Acceptable if tested |
+
+<Note>
+**SynaptiQ Specification:** NTRPX sources pharmaceutical-grade CDP-Choline meeting or exceeding Cognizin® standards. Each batch undergoes third-party testing for identity, purity, heavy metals, and microbial contamination. The 250mg dose in Boost and Sustain provides clinically-relevant choline and cytidine support for daily cognitive function.
+</Note>
+
+</Accordion>
+
+<Accordion title="Dosing Rationale" icon="capsules">
+
+### Dose-Response Analysis
+
+| Dose | Cognitive Effect | Neuroprotection | Notes |
+|------|------------------|-----------------|-------|
+| 100 mg | Minimal | Minimal | Subtherapeutic |
+| **250 mg** | Moderate | Moderate | **NTRPX Boost/Sustain dose** |
+| 500 mg | Good | Good | Common clinical dose |
+| 1000 mg | Strong | Strong | Upper range; stroke trials |
+| 2000 mg | Strong | Strong | Acute brain injury trials |
+
+### NTRPX Protocol
+
+| Product | CDP-Choline Dose | Purpose | Timing |
+|---------|------------------|---------|--------|
+| **Boost** | 250 mg | Daily foundation | Morning |
+| **Sustain** | 250 mg | Afternoon maintenance | Afternoon |
+| **Combined** | 500 mg | Full daily coverage | AM + PM |
+
+### Clinical Trial Dosing
+
+| Study | Population | Dose | Duration | Finding |
+|-------|------------|------|----------|---------|
+| **Alvarez 1997** | Healthy elderly | 500 mg | 28 days | ↑ Memory |
+| **Spiers 1996** | Age-related memory | 1000 mg | 3 months | ↑ Verbal memory |
+| **McGlade 2012** | Healthy adults | 250-500 mg | 28 days | ↑ Attention, ↓ impulsivity |
+| **Bruce 2014** | Healthy women | 250-500 mg | 28 days | ↑ Attention |
+| **ICTUS Trial** | Stroke | 2000 mg | 6 weeks | Neuroprotection trend |
+
+### Timing Optimization
+
+```mermaid
+gantt
+    title Optimal CDP-Choline Daily Protocol
+    dateFormat HH:mm
+    axisFormat %H:%M
+    
+    section Morning
+    Wake         :w, 06:30, 30m
+    Boost+CDP    :crit, b, 07:00, 15m
+    
+    section Afternoon
+    Sustain+CDP  :crit, s, 13:00, 15m
+    
+    section Effect
+    Coverage     :crit, e, 07:30, 10h
+```
+
+### Population-Specific Dosing
+
+| Population | Dose | Frequency | Notes |
+|------------|------|-----------|-------|
+| **Healthy adults** | 250-500 mg | Daily | Cognitive maintenance |
+| **Cognitive decline** | 500-1000 mg | Daily | Higher therapeutic range |
+| **Students/Professionals** | 250-500 mg | Daily | Focus, memory support |
+| **Elderly** | 500-1000 mg | Daily | Neuroprotection emphasis |
+| **Athletes** | 250-500 mg | Daily | Cholinergic support |
+| **With Sprint stack** | 250 mg | Morning (Boost) | Baseline before acute |
+
+### Why Split Dosing (Boost + Sustain)
+
+| Factor | Single 500mg AM | Split 250mg + 250mg |
+|--------|-----------------|---------------------|
+| Plasma stability | Peaks then drops | More consistent |
+| Afternoon coverage | Diminished | Maintained |
+| GI tolerance | Good | Better |
+| Flexibility | Less | More |
+| NTRPX approach | — | **Preferred** |
+
+</Accordion>
+
+<Accordion title="Synergy Matrix" icon="link">
+
+### NTRPX System Synergies
+
+CDP-Choline forms the **cholinergic baseline** upon which other NTRPX ingredients build:
+
+```mermaid
+flowchart TB
+    subgraph BASELINE["CDP-Choline Baseline"]
+        CDP_B[SynaptiQ CDP-Choline<br>250mg in Boost/Sustain]
+        CDP_B --> ACH_BASE[Baseline ACh ↑]
+        CDP_B --> MEMB_BASE[Membrane Support]
+    end
+    
+    subgraph SPRINT["Sprint Acute Amplification"]
+        AGPC[Alpha-GPC 300mg] --> ACH_SURGE[ACh Surge ↑↑]
+        HUP[Huperzine A 200mcg] --> ACHE_BLOCK[AChE Block]
+        ACH_BASE --> ACH_SURGE
+        ACH_SURGE --> ACHE_BLOCK
+        ACHE_BLOCK --> PEAK_ACH[Peak Cholinergic<br>State]
+    end
+    
+    subgraph RESULT["Combined Outcome"]
+        PEAK_ACH --> OPTIMAL[Optimized<br>Memory, Focus,<br>Learning]
+    end
+```
+
+### Clinically-Proven Synergies
+
+| Combination | Evidence Level | Mechanism | Outcome |
+|-------------|----------------|-----------|---------|
+| **CDP-Choline + Alpha-GPC** | Moderate (logical) | Baseline + acute surge | Enhanced cholinergic range |
+| **CDP-Choline + Huperzine A** | Moderate | ↑ ACh synthesis + ↓ ACh breakdown | Amplified ACh signaling |
+| **CDP-Choline + Uridine + DHA** | Strong (Wurtman) | Full Kennedy pathway support | Synaptogenesis ↑↑ |
+| **CDP-Choline + Piracetam** | Strong (clinical) | Cholinergic + racetam | Enhanced memory |
+| **CDP-Choline + Memantine** | Moderate (clinical) | Cholinergic + NMDA modulation | Dementia adjunct |
+
+### The Sprint Cholinergic Cascade
+
+This is the core NTRPX cholinergic synergy:
+
+```mermaid
+flowchart LR
+    subgraph MORNING["Morning (Boost)"]
+        CDP_M[CDP-Choline 250mg]
+        CDP_M --> BASE[Baseline<br>Established]
+    end
+    
+    subgraph SPRINT_USE["Sprint (Acute Need)"]
+        AGPC_S[Alpha-GPC 300mg]
+        HUP_S[Huperzine A 200mcg]
+        BASE --> AGPC_S
+        AGPC_S --> SURGE[ACh Surge]
+        SURGE --> HUP_S
+        HUP_S --> PRESERVE[ACh Preserved]
+    end
+    
+    subgraph OUTCOME["Peak Performance"]
+        PRESERVE --> PEAK_S[2-4 Hours<br>Peak Cognition]
+    end
+```
+
+**Why This Works:**
+1. **CDP-Choline (daily):** Establishes baseline ACh and membrane support
+2. **Alpha-GPC (acute):** Rapid, high-magnitude ACh surge
+3. **Huperzine A (acute):** Prevents ACh breakdown, extends surge
+
+### The Wurtman Stack (Uridine + DHA + Choline)
+
+Dr. Richard Wurtman at MIT demonstrated powerful synergy between uridine, DHA, and choline for synaptogenesis:
+
+```mermaid
+flowchart TB
+    subgraph WURTMAN["Wurtman Synergy Stack"]
+        URI_W[Uridine<br>From CDP-Choline]
+        DHA_W[DHA<br>Omega-3]
+        CHOL_W[Choline<br>From CDP-Choline]
+    end
+    
+    subgraph MECHANISM_W["Synergistic Mechanisms"]
+        URI_W --> UTP_W[UTP → CTP]
+        DHA_W --> DAG_W[Diacylglycerol]
+        CHOL_W --> PCHOL_W[Phosphocholine]
+        
+        UTP_W --> KENNEDY_W[Kennedy<br>Pathway]
+        DAG_W --> KENNEDY_W
+        PCHOL_W --> KENNEDY_W
+    end
+    
+    subgraph OUTCOME_W["Synergistic Outcomes"]
+        KENNEDY_W --> PC_W[↑↑ Phosphatidylcholine]
+        PC_W --> SYNAPSE_W[↑↑ Synapse Formation]
+        PC_W --> DENDRITE_W[↑↑ Dendritic Spines]
+    end
+```
+
+| Component | Dose | CDP-Choline Provides |
+|-----------|------|---------------------|
+| **Uridine** | 150-300 mg | ✓ Via cytidine conversion |
+| **DHA** | 500-1000 mg | ✗ Add separately |
+| **Choline** | 250-500 mg | ✓ Direct provision |
+
+### Synergies with Other NTRPX Ingredients
+
+| NTRPX Ingredient | Product | Synergy Type | Mechanism |
+|------------------|---------|--------------|-----------|
+| **Alpha-GPC** | Sprint | Amplifying | Baseline + acute surge |
+| **Huperzine A** | Sprint | Amplifying | Synthesis + preservation |
+| **Paraxanthine** | ParaCaffeine | Complementary | Cholinergic + adenosinergic |
+| **L-Theanine** | Luna | Complementary | ACh + alpha waves |
+| **Magnesium** | Luna/Boost | Supportive | NMDA modulation + cholinergic |
+| **Glycine** | Luna | Supportive | NMDA glycine site + cholinergic |
+| **Creatine** | Future | Supportive | ATP for ACh synthesis |
+
+### Paraxanthine + CDP-Choline
+
+Dual-pathway cognitive enhancement:
+
+```mermaid
+flowchart LR
+    subgraph CHOLINE_SYS["Cholinergic System"]
+        CDP_P[CDP-Choline]
+        CDP_P --> ACH_P[ACh ↑]
+        ACH_P --> MEM_P[Memory<br>Learning]
+    end
+    
+    subgraph ADENOSINE_SYS["Adenosinergic System"]
+        PX_P[Paraxanthine]
+        PX_P --> A2A_P[A2A Block]
+        A2A_P --> DA_P[Dopamine ↑]
+        DA_P --> FOCUS_P[Focus<br>Motivation]
+    end
+    
+    subgraph COMBINED["Combined Effect"]
+        MEM_P --> OPTIMAL_P[Optimized<br>Cognition]
+        FOCUS_P --> OPTIMAL_P
+    end
+```
+
+### L-Theanine + CDP-Choline
+
+Calm focus with cholinergic support:
+
+| CDP-Choline Contribution | L-Theanine Contribution | Combined |
+|--------------------------|-------------------------|----------|
+| ACh ↑ for memory | Alpha waves for calm | Focused learning |
+| Membrane support | Glutamate modulation | Neuroprotection |
+| Sustained effect | Sustained effect | All-day coverage |
+
+### Logical/Theoretical Synergies
+
+| Combination | Rationale | Theoretical Benefit |
+|-------------|-----------|---------------------|
+| **CDP-Choline + Bacopa** | ACh + antioxidant + memory consolidation | Enhanced long-term memory |
+| **CDP-Choline + Lion's Mane** | ACh + NGF support | Neuroplasticity + cholinergic |
+| **CDP-Choline + Phosphatidylserine** | Two membrane phospholipids | Comprehensive membrane support |
+| **CDP-Choline + B-vitamins** | Methylation support | SAMe cycle support |
+| **CDP-Choline + Racetams** | Classic stack | Enhanced racetam response |
+
+### Contraindicated Combinations
+
+| Combination | Issue | Recommendation |
+|-------------|-------|----------------|
+| **CDP-Choline + High-dose Alpha-GPC daily** | Excessive choline; possible TMAO | Use Alpha-GPC acutely only |
+| **CDP-Choline + Anticholinergics** | Opposing mechanisms | Avoid or separate |
+| **CDP-Choline + AChE inhibitor drugs** | Excessive cholinergic activity | Medical supervision only |
+
+### Synergy Summary Table
+
+| Synergy | NTRPX Products | Evidence | Rating |
+|---------|----------------|----------|--------|
+| CDP-Choline + Alpha-GPC + Huperzine A | Boost/Sustain + Sprint | Logical (strong) | ★★★★★ |
+| CDP-Choline + Paraxanthine | Boost + ParaCaffeine | Logical | ★★★★☆ |
+| CDP-Choline + L-Theanine + Mg | Boost + Luna | Logical | ★★★★☆ |
+| CDP-Choline + Uridine + DHA | Boost + External | Clinical (Wurtman) | ★★★★★ |
+| CDP-Choline + Creatine | Boost + Future | Logical | ★★★★☆ |
+
+<Note>
+**NTRPX Synergy Philosophy:** CDP-Choline serves as the **daily cholinergic foundation** across Boost and Sustain. It establishes baseline acetylcholine levels and membrane support that acute stacks (Sprint) can amplify. This "baseline + acute" model is central to NTRPX's approach — sustainable daily support with on-demand enhancement.
+</Note>
+
+</Accordion>
+
+<Accordion title="Clinical Evidence" icon="book-open">
+
+### Healthy Adult Cognition
+
+| Study | Design | N | Dose | Duration | Finding |
+|-------|--------|---|------|----------|---------|
+| **McGlade 2012** | RCT | 60 | 250-500 mg | 28 days | ↑ Attention, ↓ impulsivity (CPT) |
+| **Bruce 2014** | RCT | 60 | 250-500 mg | 28 days | ↑ Attention (healthy women) |
+| **Knott 2015** | RCT | 24 | 500 mg | Acute | ↑ Attention (ERP changes) |
+| **Alvarez 1997** | RCT | 24 | 500 mg | 28 days | ↑ Memory (elderly healthy) |
+
+### Age-Related Cognitive Decline
+
+| Study | Design | N | Dose | Duration | Finding |
+|-------|--------|---|------|----------|---------|
+| **Spiers 1996** | RCT | 95 | 1000 mg | 3 months | ↑ Verbal memory |
+| **Cacabelos 1996** | Open | 2067 | 1000 mg | Variable | ↑ MMSE, attention, memory |
+| **Fioravanti 2005** | Cochrane Review | 14 trials | Various | Various | Positive effects on memory, behavior |
+
+### Stroke and Brain Injury
+
+| Study | Design | N | Dose | Duration | Finding |
+|-------|--------|---|------|----------|---------|
+| **ICTUS 2012** | RCT | 2298 | 2000 mg | 6 weeks | Non-significant trend toward benefit |
+| **Davalos 2002** | Meta-analysis | 1372 | Various | Various | Improved recovery outcomes |
+| **Saver 2010** | Meta-analysis | 4 trials | Various | Various | Favorable outcomes |
+
+### Mechanism Studies
+
+| Study | Focus | Finding |
+|-------|-------|---------|
+| **Wurtman 2000** | Uridine effects | ↑ Phosphatidylcholine synthesis |
+| **Secades 2006** | Comprehensive review | Multiple neuroprotective mechanisms |
+| **Adibhatla 2002** | Membrane repair | ↑ Phospholipid synthesis post-injury |
+
+### Effect Size Summary
+
+| Outcome | Effect Size | Evidence Level |
+|---------|-------------|----------------|
+| Attention (healthy) | d = 0.3-0.5 | Moderate-High |
+| Memory (elderly) | d = 0.4-0.6 | Moderate |
+| Verbal fluency | d = 0.3-0.4 | Moderate |
+| Global cognition (impaired) | Variable | Moderate |
+| Stroke recovery | Modest | Moderate |
+
+### Total Clinical Evidence Base
+
+| Metric | Value |
+|--------|-------|
+| Total patients studied | &gt;11,000 |
+| Randomized controlled trials | 50+ |
+| Systematic reviews | 5+ |
+| Countries studied in | 20+ |
+| Decades of research | 4+ |
+
+### References
+
+**Healthy Cognition:**
+- McGlade E et al. Improved attentional performance following citicoline administration. *Food Nutr Sci.* 2012;3(6):769-73.
+- Bruce SE et al. Improvements in concentration, working memory and sustained attention following consumption of a natural citicoline-caffeine beverage. *Int J Food Sci Nutr.* 2014;65(8):1003-7. [PubMed](https://pubmed.ncbi.nlm.nih.gov/25046515/)
+
+**Age-Related Decline:**
+- Spiers PA et al. Citicoline improves verbal memory in aging. *Arch Neurol.* 1996;53(5):441-8. [PubMed](https://pubmed.ncbi.nlm.nih.gov/8624220/)
+- Fioravanti M, Yanagi M. Cytidinediphosphocholine (CDP-choline) for cognitive and behavioural disturbances. *Cochrane Database Syst Rev.* 2005;(2):CD000269. [PubMed](https://pubmed.ncbi.nlm.nih.gov/15846601/)
+
+**Stroke:**
+- Davalos A et al. Citicoline in the treatment of acute ischaemic stroke. *Lancet.* 2012;380(9839):349-57. [PubMed](https://pubmed.ncbi.nlm.nih.gov/22691567/)
+
+**Mechanism:**
+- Wurtman RJ et al. Effect of oral CDP-choline on plasma choline and uridine levels in humans. *Biochem Pharmacol.* 2000;60(7):989-92. [PubMed](https://pubmed.ncbi.nlm.nih.gov/10974208/)
+- Secades JJ, Lorenzo JL. Citicoline: pharmacological and clinical review. *Methods Find Exp Clin Pharmacol.* 2006;28(Suppl B):1-56. [PubMed](https://pubmed.ncbi.nlm.nih.gov/17171187/)
+
+</Accordion>
+
+<Accordion title="Safety & Classification" icon="shield-check">
+
+### Adverse Event Profile
+
+| Event | Incidence | Severity | Notes |
+|-------|-----------|----------|-------|
+| **Headache** | 2-5% | Mild | Usually transient |
+| **GI upset** | 2-3% | Mild | Nausea, diarrhea |
+| **Insomnia** | 1-2% | Mild | If taken late; avoid evening |
+| **Restlessness** | &lt;1% | Mild | Rare; dose-related |
+
+### Safety Data
+
+| Parameter | Finding |
+|-----------|---------|
+| **LD50 (rat, oral)** | &gt;4,000 mg/kg |
+| **NOAEL** | 1,000 mg/kg/day (rat, 6 months) |
+| **Maximum studied (acute stroke)** | 4,000 mg/day |
+| **Chronic studied dose** | 2,000 mg/day for months |
+| **Genotoxicity** | Negative |
+| **Carcinogenicity** | No evidence |
+| **Teratogenicity** | No evidence |
+
+### Regulatory Status
+
+| Region | Status | Notes |
+|--------|--------|-------|
+| **United States** | GRAS; Dietary supplement | FDA no objection to GRAS |
+| **European Union** | Medical food / Supplement | Some countries Rx, some OTC |
+| **Japan** | Approved drug | Prescription for stroke |
+| **Canada** | NHP | Licensed products |
+| **Australia** | Complementary medicine | TGA listed |
+
+### Contraindications
+
+| Category | Consideration | Severity |
+|----------|---------------|----------|
+| **None absolute** | Very safe profile | — |
+| **AChE inhibitor drugs** | Additive cholinergic effect | ★★★☆☆ Medical supervision |
+| **Parkinson's meds** | Theoretical interaction | ★★☆☆☆ Consult provider |
+
+### Drug Interactions
+
+| Drug Class | Interaction | Severity | Notes |
+|------------|-------------|----------|-------|
+| **AChE inhibitors (Aricept, etc.)** | Additive ACh effect | ★★★☆☆ | Often used together under supervision |
+| **Anticholinergics** | Opposing effects | ★★☆☆☆ | May reduce benefit |
+| **Levodopa** | Theoretical potentiation | ★★☆☆☆ | Monitor |
+| **Meclizine** | Anticholinergic opposition | ★★☆☆☆ | May reduce benefit |
+
+### Long-Term Safety
+
+| Parameter | Finding |
+|-----------|---------|
+| **Chronic use (months-years)** | Well-tolerated |
+| **Tolerance** | Not observed |
+| **Dependence** | None |
+| **Withdrawal** | None |
+| **Accumulation** | None with normal dosing |
+
+### Special Populations
+
+| Population | Safety Status | Notes |
+|------------|---------------|-------|
+| **Healthy adults** | Excellent | Primary market |
+| **Elderly** | Excellent | Extensively studied |
+| **Stroke patients** | Good | High-dose trials |
+| **Pregnancy** | Limited data | Avoid unless prescribed |
+| **Children** | Limited data | Not typically recommended |
+
+---
+
+### <Icon icon="star" color="#5A8FA8" /> Tier 1: Foundation
+
+<CardGroup cols={3}>
+<Card title="Efficacy" icon="check" color="#5A8FA8">Moderate-High</Card>
+<Card title="Validation" icon="check" color="#5A8FA8">Very High — 11,000+ patients; 50+ RCTs</Card>
+<Card title="Safety" icon="check" color="#5A8FA8">Excellent — GRAS; decades of use</Card>
+</CardGroup>
+
+**Tier Rationale:** Tier 1 (Foundation) classification. CDP-Choline is one of the most extensively researched nootropic compounds with over 11,000 patients across 50+ clinical trials. Its dual mechanism (choline + cytidine/uridine) provides both cholinergic support and membrane synthesis benefits. Effect sizes are moderate but consistent. Safety profile is excellent with GRAS status and decades of human use. As the daily cholinergic foundation in NTRPX Boost and Sustain, CDP-Choline establishes the baseline upon which acute performance stacks can build.
+
+</Accordion>
+
+<Accordion title="The Kennedy Pathway Deep Dive" icon="dna">
+
+### Phosphatidylcholine: The Target Molecule
+
+Phosphatidylcholine (PC) is the most abundant phospholipid in eukaryotic membranes:
+
+```mermaid
+flowchart TB
+    subgraph STRUCTURE["PC Structure"]
+        PC_S[Phosphatidylcholine]
+        PC_S --> GLYC[Glycerol Backbone]
+        PC_S --> FA1[Fatty Acid 1<br>Often Saturated]
+        PC_S --> FA2[Fatty Acid 2<br>Often PUFA/DHA]
+        PC_S --> PHOS[Phosphate Group]
+        PC_S --> CHOL_HEAD[Choline Headgroup]
+    end
+    
+    subgraph FUNCTION["PC Functions"]
+        PC_S --> MEMB_INT[Membrane Integrity]
+        PC_S --> FLUID[Membrane Fluidity]
+        PC_S --> SIGNAL[Signal Transduction]
+        PC_S --> LIPO[Lipoprotein Component]
+    end
+```
+
+### Complete Kennedy Pathway
+
+```mermaid
+flowchart TB
+    subgraph STEP1["Step 1: Choline Phosphorylation"]
+        CHOL_K[Choline] --> CK_E[Choline Kinase<br>+ ATP]
+        CK_E --> PCHOL_K[Phosphocholine]
+    end
+    
+    subgraph STEP2["Step 2: CDP-Choline Formation (Rate-Limiting)"]
+        PCHOL_K --> CCT_E[CCT Enzyme<br>+ CTP]
+        CCT_E --> CDPC_K[CDP-Choline]
+    end
+    
+    subgraph STEP3["Step 3: PC Synthesis"]
+        CDPC_K --> CPT_E[CPT Enzyme]
+        DAG_K[Diacylglycerol] --> CPT_E
+        CPT_E --> PC_K[Phosphatidylcholine]
+    end
+    
+    subgraph CDP_SUPPLY["CDP-Choline Supplementation"]
+        SUPP[Oral CDP-Choline]
+        SUPP --> |"Provides choline"| CHOL_K
+        SUPP --> |"Provides CTP<br>(via cytidine)"| CCT_E
+        SUPP --> |"Bypasses rate<br>limit"| CDPC_K
+    end
+```
+
+### Rate-Limiting Step: CCT Enzyme
+
+| Parameter | CCT Enzyme |
+|-----------|------------|
+| Full name | CTP:phosphocholine cytidylyltransferase |
+| Role | Converts phosphocholine → CDP-choline |
+| Rate-limiting? | **Yes — controls PC synthesis rate** |
+| Regulation | Membrane translocation, phosphorylation |
+| CTP requirement | Requires CTP (from UTP → CTP) |
+
+**Why CDP-Choline Supplementation Works:**
+
+1. **Provides choline:** Substrate for phosphocholine
+2. **Provides cytidine → uridine → UTP → CTP:** Substrate for CCT
+3. **Effectively bypasses the rate-limit** by supplying both substrates
+
+### Membrane Composition
+
+| Phospholipid | % of Neural Membrane | Role |
+|--------------|---------------------|------|
+| **Phosphatidylcholine (PC)** | 40-50% | Primary structural |
+| Phosphatidylethanolamine (PE) | 20-30% | Inner leaflet |
+| Phosphatidylserine (PS) | 5-10% | Signaling |
+| Sphingomyelin | 5-10% | Raft formation |
+| Phosphatidylinositol (PI) | 2-5% | Signaling |
+
+### DHA Integration
+
+The fatty acid composition of PC matters — DHA-enriched PC is particularly important for neural function:
+
+```mermaid
+flowchart LR
+    DHA[DHA<br>Omega-3] --> DAG_D[DHA-DAG]
+    CDPC_D[CDP-Choline] --> CPT_D[CPT]
+    DAG_D --> CPT_D
+    CPT_D --> PC_DHA[DHA-PC]
+    PC_DHA --> NEURAL[Optimal Neural<br>Membrane Function]
+```
+
+**This is why CDP-Choline + DHA (Wurtman stack) is so powerful** — CDP-Choline provides the choline and cytidine, while DHA provides the optimal fatty acid for neural PC.
+
+</Accordion>
+
+<Accordion title="Comparison with Alpha-GPC" icon="scale-balanced">
+
+### Head-to-Head Analysis
+
+| Parameter | CDP-Choline | Alpha-GPC |
+|-----------|-------------|-----------|
+| **Choline content** | 18.5% | 40% |
+| **Choline delivery** | Moderate, sustained | High, rapid |
+| **Additional benefits** | Cytidine → Uridine | None |
+| **Mechanism breadth** | Dual pathway | Single pathway |
+| **Peak effect** | 2-3 hours | 1-2 hours |
+| **Duration** | Prolonged (56h terminal) | Shorter |
+| **Best application** | **Daily baseline** | **Acute performance** |
+| **TMAO concern** | Lower (less choline) | Higher (more choline) |
+| **GH release** | Minimal | Documented |
+| **Clinical trials** | Extensive (11,000+) | Moderate |
+| **NTRPX role** | Boost/Sustain (daily) | Sprint (acute) |
+
+### Complementary Use: The NTRPX Model
+
+```mermaid
+flowchart LR
+    subgraph DAILY["Daily Protocol"]
+        CDP_D[CDP-Choline 250mg<br>Boost/Sustain]
+        CDP_D --> BASE_D[Sustained Baseline<br>ACh + Membrane]
+    end
+    
+    subgraph ACUTE["Acute Protocol (Sprint Days)"]
+        BASE_D --> AGPC_A[Alpha-GPC 300mg]
+        AGPC_A --> SURGE_A[Acute ACh Surge]
+        SURGE_A --> HUP_A[Huperzine A 200mcg]
+        HUP_A --> PRESERVE_A[ACh Preserved]
+    end
+    
+    subgraph OUTCOME["Outcome"]
+        PRESERVE_A --> PEAK_A[Peak Cholinergic<br>Performance]
+    end
+```
+
+### Why Not Just Use Alpha-GPC Daily?
+
+| Concern | Alpha-GPC Daily | CDP-Choline Daily |
+|---------|-----------------|-------------------|
+| **TMAO production** | Higher (more choline) | Lower |
+| **Receptor downregulation** | Possible with chronic high ACh | Less likely |
+| **Cost** | Higher per day | Lower |
+| **Breadth of benefit** | Choline only | Choline + Uridine |
+| **Sustained effect** | Less | More (long terminal half-life) |
+
+### Summary: Use Both, Use Differently
+
+| Compound | When | Product | Purpose |
+|----------|------|---------|---------|
+| **CDP-Choline** | Daily | Boost, Sustain | Baseline, membrane, uridine |
+| **Alpha-GPC** | Acute (2-3×/week) | Sprint | Peak performance surge |
+
+</Accordion>
+
+<Accordion title="Practical Considerations" icon="clipboard-list">
+
+### When to Take CDP-Choline
+
+| Goal | Timing | Dose | Product |
+|------|--------|------|---------|
+| **Daily cognitive support** | Morning | 250 mg | Boost |
+| **Extended daily support** | Morning + afternoon | 250 mg × 2 | Boost + Sustain |
+| **Pre-learning/study** | 1-2 hours before | 250-500 mg | Boost |
+| **Before Sprint stack** | Morning (baseline) | 250 mg | Boost |
+
+### What to Expect
+
+| Timeframe | Expected Response |
+|-----------|-------------------|
+| **Acute (first dose)** | Subtle; some report mild clarity |
+| **1-2 weeks** | Improved attention, verbal fluency |
+| **4+ weeks** | Cumulative memory benefits |
+| **Chronic** | Maintained cognitive support |
+
+### Signs It's Working
+
+| Domain | Positive Indicators |
+|--------|---------------------|
+| **Attention** | Easier focus, less distraction |
+| **Memory** | Better recall, verbal fluency |
+| **Mental clarity** | Reduced brain fog |
+| **Learning** | Information retention |
+
+### Optimizing Response
+
+| Factor | Optimization |
+|--------|--------------|
+| **Consistency** | Daily use for cumulative benefit |
+| **Timing** | Morning/afternoon; avoid late evening |
+| **Stacking** | Combine with DHA for Wurtman synergy |
+| **Acute boost** | Add Sprint for peak demands |
+| **Cofactors** | B-vitamins support methylation |
+
+### Common Questions
+
+**Q: How is this different from eating eggs?**
+A: Eggs provide choline (primarily as phosphatidylcholine), but CDP-Choline provides choline PLUS cytidine for uridine benefits. CDP-Choline also bypasses digestion of phospholipids.
+
+**Q: Can I take CDP-Choline and Alpha-GPC together?**
+A: Yes, but use CDP-Choline daily and Alpha-GPC acutely (Sprint days). Daily high-dose Alpha-GPC may increase TMAO.
+
+**Q: Will CDP-Choline keep me awake?**
+A: It's mildly activating. Take in morning/afternoon, not evening.
+
+**Q: How long until I notice effects?**
+A: Subtle effects may be noticed within days; full benefits develop over 2-4 weeks of consistent use.
+
+**Q: Is it safe long-term?**
+A: Yes. CDP-Choline has been used chronically in clinical trials and medical practice for decades with excellent safety.
+
+</Accordion>
+
+</AccordionGroup>
+
+---
+
+<Tip>
+**SynaptiQ Summary:** CDP-Choline (250mg in Boost and Sustain) is the daily cholinergic foundation of the NTRPX system. Unlike simple choline salts, it delivers dual benefits: choline for acetylcholine synthesis and membrane construction, plus cytidine that converts to uridine for neuroplastic support. With over 11,000 patients studied across 50+ clinical trials, CDP-Choline provides well-validated cognitive support with an excellent safety profile. Use daily as baseline; amplify with Sprint (Alpha-GPC + Huperzine A) for acute demands.
+</Tip>

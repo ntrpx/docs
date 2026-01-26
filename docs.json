@@ -1,0 +1,213 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "NTRPX",
+  "colors": {
+    "primary": "#5B7A8C",
+    "light": "#3D5566",
+    "dark": "#8FAAB8"
+  },
+  "favicon": "/images/favicon.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Start Here",
+        "pages": [
+          "start-here/welcome"
+        ]
+      },
+      {
+        "group": "Method",
+        "pages": [
+          "method/map-the-biology",
+          "method/analyse-ingredients",
+          "method/formulate-systems"
+        ]
+      },
+      {
+        "group": "Systems",
+        "pages": [
+          {
+            "group": "NTRPX Meta System",
+            "pages": [
+              "systems/ntrpx-meta-system/ntrpx-meta-system",
+              "systems/ntrpx-meta-system/ntrpx-systems-formulations"
+            ]
+          },
+          {
+            "group": "ParaCaffeine +™",
+            "pages": [
+              "systems/para-caffeine/tldr",
+              "systems/para-caffeine/para-caffeine"
+            ]
+          },
+          {
+            "group": "Sprint™",
+            "pages": [
+              "systems/sprint/tldr",
+              "systems/sprint/sprint"
+            ]
+          },
+          {
+            "group": "Neuraldrink™",
+            "pages": [
+              "systems/neuraldrink/tldr",
+              "systems/neuraldrink/neuraldrink-systems",
+              "systems/neuraldrink/sol",
+              "systems/neuraldrink/luna"
+            ]
+          },
+          {
+            "group": "All Systems Go™",
+            "pages": [
+              "systems/all-systems-go/overview",
+              "systems/all-systems-go/boost",
+              "systems/all-systems-go/sustain",
+              "systems/all-systems-go/recover"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Formulations",
+        "pages": [
+          "formulations/ntrpx-formulations-v3",
+          "formulations/v3-changelog"
+        ]
+      },
+      {
+        "group": "Ingredient Manual",
+        "pages": [
+          "manuals/ingedient-manual/taxonomy",
+          {
+            "group": "Browse by Mechanism",
+            "pages": [
+              {
+                "group": "Neurotransmitter Systems",
+                "pages": [
+                  "manuals/ingedient-manual/cdp-choline",
+                  "manuals/ingedient-manual/alpha-gpc",
+                  "manuals/ingedient-manual/huperzine-a",
+                  "manuals/ingedient-manual/l-tyrosine",
+                  "manuals/ingedient-manual/l-theanine",
+                  "manuals/ingedient-manual/apigenin",
+                  "manuals/ingedient-manual/magnesium",
+                  "manuals/ingedient-manual/paracaffeine"
+                ]
+              },
+              {
+                "group": "Bioenergetics",
+                "pages": [
+                  "manuals/ingedient-manual/creatine",
+                  "manuals/ingedient-manual/pqq"
+                ]
+              },
+              {
+                "group": "Endocrine & Hormonal",
+                "pages": [
+                  "manuals/ingedient-manual/ashwagandha"
+                ]
+              },
+              {
+                "group": "Adaptogens & Herbs",
+                "pages": [
+                  "manuals/ingedient-manual/lions-mane",
+                  "manuals/ingedient-manual/salidroside",
+                  "manuals/ingedient-manual/saffron"
+                ]
+              },
+              {
+                "group": "Sleep & Circadian",
+                "pages": [
+                  "manuals/ingedient-manual/glycine",
+                  "manuals/ingedient-manual/l-glycine",
+                  "manuals/ingedient-manual/magnesium-l-threonate",
+                  "manuals/ingedient-manual/recover-luna-synergy"
+                ]
+              },
+              {
+                "group": "Structural & Cellular",
+                "pages": [
+                  "manuals/ingedient-manual/phosphatidylserine",
+                  "manuals/ingedient-manual/dha"
+                ]
+              },
+              {
+                "group": "Cardiovascular",
+                "pages": [
+                  "manuals/ingedient-manual/l-citrulline",
+                  "manuals/ingedient-manual/epa",
+                  "manuals/ingedient-manual/dha-epa"
+                ]
+              },
+              {
+                "group": "Essential Nutrients",
+                "pages": [
+                  "manuals/ingedient-manual/vitamins-and-minerals"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Evaluations",
+        "pages": [
+          "evaluations/ntrpx-meta-system-v2",
+          "evaluations/ntrpx-formulations-v2",
+          "evaluations/ingredient-decisions",
+          "evaluations/quick-refernce",
+          "manuals/ingedient-manual/l-citrulline-evaluation",
+          "manuals/ingedient-manual/l-arginine-evaluation",
+          "manuals/ingedient-manual/l-arginine-evaluation-2",
+          "manuals/ingedient-manual/l-arginine-evaluation-3",
+          "manuals/ingedient-manual/l-arginine-evaluation-4",
+          "manuals/ingedient-manual/bacopa-evaluation",
+          "manuals/ingedient-manual/cordyceps-evaluation",
+          "manuals/ingedient-manual/methylene-blue-evaluation",
+          "manuals/ingedient-manual/nitrosigine-vs-l-arginine-evaluation",
+          "manuals/ingedient-manual/b-vitamins-evaluation",
+          "manuals/ingedient-manual/b-vitamin-evaluation-2",
+          "manuals/ingedient-manual/b-vitamins-evaluation-3"
+        ]
+      },
+      {
+        "group": "Community",
+        "pages": [
+          "community/github",
+          "community/discord"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/ntrpx-wordmark-black.png",
+    "dark": "/logo/ntrpx-wordmark-white.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@ntrpx.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "NTRPX Store",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "background": {
+    "color": {
+      "dark": "#0b0f14",
+      "light": "#faf9f5"
+    }
+  }
+}
