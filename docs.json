@@ -79,6 +79,7 @@
         "group": "Ingredient Manual",
         "pages": [
           "manuals/ingedient-manual/taxonomy",
+          "manuals/ingedient-manual/biology/biological-domains",
           {
             "group": "Browse by Mechanism",
             "pages": [
