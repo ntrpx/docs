@@ -21,7 +21,13 @@
         "pages": [
           "method/map-the-biology",
           "method/analyse-ingredients",
-          "method/formulate-systems"
+          "method/formulate-systems",
+          {
+            "group": "Ingredient Monographs",
+            "pages": [
+              "method/ingredient-monographs.mdx/alcar"
+            ]
+          }
         ]
       },
       {
