@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "NTRPX",
   "colors": {
-    "primary": "#5B7A8C",
-    "light": "#3D5566",
-    "dark": "#8FAAB8"
+    "primary": "#3c5166",
+    "light": "#ddcdb9",
+    "dark": "#a1998e"
   },
   "favicon": "/images/favicon.png",
   "navigation": {
@@ -78,6 +78,7 @@
       {
         "group": "Formulations",
         "pages": [
+          "formulations/ntrpx-formulations-v4",
           "formulations/ntrpx-formulations-v3",
           "formulations/v3-changelog"
         ]
@@ -217,5 +218,6 @@
       "dark": "#0b0f14",
       "light": "#faf9f5"
     }
-  }
+  },
+  "customCss": ["/custom.css"]
 }

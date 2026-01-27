@@ -1,0 +1,61 @@
+/* NTRPX Custom Styles */
+
+/* ============================================
+   Color Palette Reference:
+   - primary: #edece7 (light cream)
+   - light mode accent: #3D5566 (dark blue-gray)
+   - dark mode accent: #8FAAB8 (light blue-gray)
+   ============================================ */
+
+/* Table header styling */
+table th {
+  color: #3D5566 !important;
+}
+
+.dark table th {
+  color: #8FAAB8 !important;
+}
+
+/* ============================================
+   ICON COLORS - LIGHT MODE (light background → bluish icons)
+   ============================================ */
+svg,
+svg *,
+[class*="icon"],
+[class*="Icon"],
+[class*="card"] svg,
+[class*="Card"] svg,
+[class*="card"] svg *,
+[class*="Card"] svg *,
+[data-icon] svg,
+[data-icon] svg * {
+  color: #3c5166 !important;
+  fill: #3c5166 !important;
+  stroke: #3c5166 !important;
+}
+
+/* ============================================
+   ICON COLORS - DARK MODE (dark background → tan icons)
+   ============================================ */
+.dark svg,
+.dark svg *,
+.dark [class*="icon"],
+.dark [class*="Icon"],
+.dark [class*="card"] svg,
+.dark [class*="Card"] svg,
+.dark [class*="card"] svg *,
+.dark [class*="Card"] svg *,
+.dark [data-icon] svg,
+.dark [data-icon] svg *,
+html.dark svg,
+html.dark svg *,
+html.dark [class*="icon"],
+html.dark [class*="Icon"],
+html.dark [class*="card"] svg,
+html.dark [class*="Card"] svg,
+[data-theme="dark"] svg,
+[data-theme="dark"] svg * {
+  color: #bdcad2 !important;
+  fill: #bdcad2 !important;
+  stroke: #bdcad2 !important;
+}
